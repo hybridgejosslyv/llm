@@ -1,4 +1,4 @@
-from app.services.openai_service import generate_text
+from app.services.gemini_service import generate_text
 from app.utils.prompts import email_prompt, improve_text_prompt
 
 def generate_email(topic: str):
